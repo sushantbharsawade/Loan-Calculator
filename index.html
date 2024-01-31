@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" type="text/css" href="assign.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Loan Calculator</h1>
+        <div class="input-container">
+            <label for="loanAmount">Loan Amount:</label>
+            <input type="number" id="loanAmount" placeholder="Loan Amount">
+        </div>
+        <br>
+        <div class="input-container">
+            <label for="loanDuration">Loan Duration (months):</label>
+            <input type="number" id="loanDuration" placeholder="Loan Duration">
+        </div>
+        <br>
+        <div class="input-container">
+            <label for="interestRate">Interest Rate (%):</label>
+            <input type="number" id="interestRate" placeholder="Interest Rate">
+        </div>
+        <br>
+        <button id="calculateBtn">Calculate</button>
+        <div id="result">
+            <p>Total Amount: <span id="totalAmount"></span></p>
+            <p>Total EMI: <span id="totalEMI"></span></p>
+            <p>Total Interest: <span id="totalInterest"></span></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
